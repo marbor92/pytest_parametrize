@@ -1,0 +1,4 @@
+[
+  "test_sorting_by.py::TestProductSortBy::test_sorting_by_name[A_to_Z]",
+  "test_sorting_by.py::TestProductSortBy::test_sorting_by_name[Z_to_A]"
+]
