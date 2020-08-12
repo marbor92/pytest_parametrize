@@ -1,5 +1,5 @@
 import pytest
-from online_store_test.pages.search_product import SearchProduct
+from pages.search_product import SearchProduct
 
 
 @pytest.mark.usefixtures("setup")
