@@ -23,17 +23,6 @@ class SortingResultsByName:
         return products_names
 
 
-# def test_sorting_by_name_v2(setup, name, index1, index2):
-#     driver = setup
-#     driver.find_element_by_id("selectProductSort").click()
-#     sort_select = Select(driver.find_element_by_id("selectProductSort"))
-#     sort_select.select_by_visible_text(name)
-#     driver.find_element_by_css_selector(".icon-th-list").click()
-#     products = driver.find_elements_by_xpath("//h5[@itemprop='name']//a")
-#     products_names = [product.get_attribute("text").strip() for product in products]
-#     sorted_products_names = sorted(products_names)
-#
-#     assert products_names[index1] == sorted_products_names[index2]
 
 
 

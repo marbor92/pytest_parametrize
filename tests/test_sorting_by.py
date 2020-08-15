@@ -1,6 +1,6 @@
 import pytest
-from pages.search_product import SearchProduct
-from pages.sorting_by_name import SortingResultsByName
+from pytest_parametrize.pages.search_product import SearchProduct
+from pytest_parametrize.pages.sorting_by_name import SortingResultsByName
 
 
 @pytest.mark.usefixtures("setup")
